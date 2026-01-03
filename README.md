@@ -1,16 +1,16 @@
 # Intrusion Detection System (IDS) using Snort 3
 
-## 📌 Overview
+##  Overview
 This project demonstrates the deployment, configuration, monitoring, and customization of a Network Intrusion Detection System (IDS) using Snort 3 on Kali Linux.
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - Snort 3 (Snort++)
 - Kali Linux
 - Nmap
 - Custom Snort Rules
 - Git & GitHub
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 ids-snort-project/
 ├── README.md
@@ -23,7 +23,7 @@ ids-snort-project/
 │   └── local.rules
 └── docs/
 
-## 🚀 Project Phases
+##  Project Phases
 
 ### Phase 0 – Environment Setup
 - Installed and validated Snort 3
@@ -49,7 +49,7 @@ ids-snort-project/
 - Classified true positives vs false positives
 - Documented IDS limitations and findings
 
-## ▶️ How to Run
+##  How to Run
 1. Validate Snort configuration:
    ```bash
    sudo snort -T -c /etc/snort/snort.lua
@@ -58,14 +58,14 @@ ids-snort-project/
 3. Trigger detection:
    ping -c 4 8.8.8.8
 
-## 🔍 Key Learnings
+##  Key Learnings
 - Signature-based IDS requires tuning
 - Not all attacks trigger default rules
 - Custom rules significantly improve detection
 - Snort 3 uses Lua-based configuration and IPS policies
 
-## 📸 Screenshots
+##  Screenshots
 See the `screenshots/` directory for evidence of each phase.
 
-## 📄 Disclaimer
+##  Disclaimer
 All attacks were performed in a controlled lab environment on owned systems only.
